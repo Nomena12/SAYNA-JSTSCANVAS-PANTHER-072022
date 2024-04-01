@@ -1,0 +1,315 @@
+
+/*css specifique a certains endroit */
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(Police/BEYNO.otf);
+}
+
+@font-face {
+    font-family: 'Cantarell-Bold';
+    src: url(Police/Cantarell-Bold.ttf);
+}
+
+@font-face {
+    font-family:'PantheraRegular' ;
+    src: url(Police/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family:'WakandaForever' ;
+    src: url(Police/WakandaForever-Regular.ttf);
+}
+
+h1,h2,h3{
+    color: #9E91B7;
+}
+
+h1{
+    font-family: 'PantheraRegular' ;
+    font-size: 48px;
+}
+
+h2{
+    font-family: 'BEYNO';
+    font-size: 22px;
+}
+
+q {
+    font-family: 'WakandaForever';
+    font-size: xx-large;
+    word-spacing: 8px;
+}
+
+h3{
+    font-family: 'BEYNO'; 
+}
+
+p{
+    font-family: 'Cantarell-Bold';
+    font-size: 10px;
+}
+
+
+
+body{
+    background-image: url(ASSETS/Illustrations\ +\ Logo/All\ \pages/arrière_plan.png);
+    color: white;
+}
+
+footer{
+    background-image: url(ASSETS/Illustrations\ +\ Logo/All\ \pages/back_footer.png);
+}
+
+.formulaire{
+    background-image: url(ASSETS/Illustrations\ +\ Logo/Accueil/Pantherhome7.png);
+}
+
+
+
+
+.e-in2 h1 {
+    font-family: 'BEYNO';
+    padding-top: 100px;
+}
+
+.e-out1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.e-in1{
+   
+    height: 700px;
+    width: 700px;
+    margin-left: 50px;
+}
+
+
+
+
+.e-in3{
+
+    background-image: url(ASSETS/Illustrations\ +\ Logo/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height:350px ;
+   width:600px ;
+   margin-top: 150px;
+   position: relative;
+}
+
+.e-in4{
+    
+   position: absolute;
+   width: 400px;
+   top:120px ;
+   left:100px ;
+}
+
+
+img[alt="Pantherenigme1"]{
+    height: 100%;
+    width: 100%; 
+    
+}
+
+.e-out2 {
+    
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+}
+
+.alpha em {
+    font-family:'WakandaForever' ;
+}
+
+q{
+    color:#9E91B7;
+}
+
+.e-in7{
+    background-image: url(ASSETS/Illustrations\ +\ Logo/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px ;
+   width:600px ;
+   margin-top: 150px;
+   position: relative;
+}
+
+.e-in6{
+    
+    height: 100px;
+    width: 440px; 
+    position: absolute;
+    top:120px ;
+    left: 100px;
+    text-align: center;
+}
+
+.e-in8+p{
+    font-size: 14px;
+}
+
+.e-in8 p:nth-of-type(2){
+    font-size: 13px;
+}
+
+
+.e-in8{
+    
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.e-in9{
+    
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.e-in9 input{
+  
+        width: 420px;
+        height: 36px;
+        border-radius: 38px;
+        padding-left: 15px;
+        margin: 0px 0px 40px 0px;
+        background-color: rgb(2, 23, 64,0.1);
+        color: #F2CEF2;
+    }
+
+    .e-in9 p{
+        margin-bottom: 0px;
+    }
+    
+.e-in9 button{
+    width:154px ;
+        height:44px ;
+        border-radius:38px ;
+        margin-left: 150px;
+}
+
+.e-in9 button:hover{
+    background-color: #F2CEF2;
+}
+
+/*css layout du footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.out{
+    flex: 1;
+}
+
+.exterieur{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+ .ft1 {
+    font-size: 14px;
+}
+
+footer h2{
+    font-size: 20px;
+}
+
+.out1{
+    margin: 80px;
+}
+
+img[alt="footer1"]{
+    height: 290px;
+    margin-left: 200px;
+
+}
+img[alt="footer2"]{
+   position: relative;
+   bottom: 170px;
+   left: 250px;
+
+}  
+
+.out a:nth-of-type(1){
+    text-decoration: none;
+}
+
+.out a:nth-of-type(1):hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.out a:nth-of-type(2){
+    text-decoration: none;
+}
+
+.out a:nth-of-type(2):hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+/*css du barre de nav*/
+
+nav ul {
+   
+    margin-right: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav li {
+    flex: 1;
+    list-style-type: none;
+}
+
+nav{
+    font-family: 'BEYNO'; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left:100px ;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #3D2DA6; 
+}
+
+nav a:focus {
+    text-decoration: underline;
+    color: #3D2DA6;
+}
+
+img[class="logo"]:hover  {
+    filter: opacity(0.4) drop-shadow(0 0 0 #3D2DA6);
+}
+

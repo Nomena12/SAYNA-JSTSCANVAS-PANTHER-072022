@@ -1,0 +1,560 @@
+/*css specifique a certains endroit */
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(Police/BEYNO.otf);
+}
+
+@font-face {
+    font-family: 'Cantarell-Bold';
+    src: url(Police/Cantarell-Bold.ttf);
+}
+
+@font-face {
+    font-family:'PantheraRegular' ;
+    src: url(Police/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family:'WakandaForever' ;
+    src: url(Police/WakandaForever-Regular.ttf);
+}
+
+h1,h2,h3{
+    color: #9E91B7;
+}
+
+h1{
+    font-family: 'PantheraRegular' ;
+    font-size: 48px;
+}
+
+h2{
+    font-family: 'BEYNO';
+    font-size: 22px;
+}
+
+q {
+    font-family: 'WakandaForever';
+    font-size: xx-large;
+    word-spacing: 8px;
+}
+
+h3{
+    font-family: 'BEYNO'; 
+}
+
+p{
+    font-family: 'Cantarell-Bold';
+    font-size: 10px;
+}
+
+
+
+body{
+    background-image: url(ASSETS/Illustrations\ +\ Logo/All\ \pages/arrière_plan.png);
+    color: white;
+}
+
+footer{
+    background-image: url(ASSETS/Illustrations\ +\ Logo/All\ \pages/back_footer.png);
+}
+
+.formulaire{
+    background-image: url(ASSETS/Illustrations\ +\ Logo/Accueil/Pantherhome7.png);
+}
+
+
+
+
+/*css du barre de nav*/
+
+nav ul {
+   
+    margin-right: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav li {
+    flex: 1;
+    list-style-type: none;
+}
+
+nav{
+    font-family: 'BEYNO'; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left:100px ;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #3D2DA6; 
+}
+
+nav a:focus {
+    text-decoration: underline;
+    color: #3D2DA6;
+}
+
+img[class="logo"]:hover  {
+    filter: opacity(0.4) drop-shadow(0 0 0 #3D2DA6);
+}
+
+
+
+
+
+/*FICHIER ACCUEIL*/
+/*css du hero */
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+    
+}
+
+img[alt="Pantherhome1"]{
+    height: 100%;
+    width: 100%;
+}
+.in1 {
+    flex: 1 ;
+    margin-left: 100px;
+}
+
+.bp1{
+
+height: 500px;
+width: 400px;
+margin-left: 100px;
+}
+
+.bp1 p, .bp1 a {
+    font-size: 10px;
+}
+
+.bp2{
+   
+    height: 600px;
+}
+
+header {
+    
+    position: relative;
+}
+
+/*.stuck {
+    border: 2px solid white;
+    width: 45px ;
+    position: sticky;
+    top: 0px;
+}
+
+.stuckout {
+    border: 2px solid white;
+    width: 48px ;
+    position: absolute;
+    top: 0px;
+} */
+
+.test1{
+    position: absolute ;
+    border: 3px solid #9E91B7;
+    border-top:none ;
+    border-bottom: none;
+    height:250px ;
+    width:27px;
+    top: 0;
+    left: 30px;
+}
+.test2{
+    position: absolute;
+    border: 3px solid #9E91B7;
+    border-top:none ;
+    border-bottom: none;
+    border-right: none;
+    height:100px ;
+    width:40px;
+    top:250px ;
+    left: 30px;
+    background: url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_facebook.png) no-repeat top right,
+    url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_instagram.png) no-repeat  right 25px,
+    url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_twitter.png) no-repeat right 50px,
+    url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_tiktok.png) no-repeat right 75px ;
+      
+}
+
+
+/*css des cartes de heros */
+
+.out2 {
+    
+   background-color: #021740;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    margin-bottom: 150px;
+    height: 250px;
+    margin-left: 50px;
+}
+
+img[alt="Pantherhome2"]{
+    height: 100%;
+    width: 100%;
+}
+
+img[alt="Pantherhome3"]{
+    height: 100%;
+    width: 100%;
+}
+
+img[alt="Pantherhome4"]{
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 250px;
+    
+}
+
+.ptr3 {
+    height: 250px;
+}
+
+/*css du section et de l'aside*/
+
+.out3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 1200px;
+}
+
+section {
+    
+    width: 600px;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+}
+
+aside {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1100px;
+}
+
+.inout{
+    flex: 2 1;
+    margin-bottom: 40px;
+}
+
+.ptr5{
+  
+    height:300px;
+   width: 250px;
+
+    
+}
+
+
+img[alt="Pantherhome5"]{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+}
+
+.ptr6{
+   
+    height:300px ;
+    width: 350px;
+    
+}
+
+img[alt="Pantherhome6"]{
+    height: 100%;
+    width: 100%;
+}
+
+.card2 {
+  
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 350px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background:linear-gradient( to bottom ,rgba(210, 237, 255, 0.8),rgba(210, 237, 255 )10%,rgb(255,255,255))  ;
+
+}
+
+.descri1,.descri{
+    flex: 2 1;
+}
+
+.descri1{
+  
+  height: 400px;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: justify;
+}
+
+
+
+.descri{
+    color: #021740;
+    padding-bottom: 300px;
+   
+}
+
+.descri span {
+    color: #9E91B7;
+    margin: 40px;
+}
+
+.inin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5px;
+    justify-content: center;
+}
+
+aside h3 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.inin2 {
+    
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #3D2DA6;
+    
+}
+
+/*css formulaire */
+
+input:invalid{
+    border: 2px dotted red;
+}
+
+input:valid{
+    border: 2px solid blue;
+}
+
+
+textarea:invalid{
+    border: 2px dotted red;
+}
+
+textarea:valid{
+    border: 2px solid blue;
+}
+
+.formulaire{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 700px;
+    padding-top: 300px;
+}
+
+
+form{
+    
+    border-radius: 150px;
+    height: 500px;
+    width: 800px;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 10px;
+    background: linear-gradient(to bottom , rgb(255,255,255),rgb(218, 217, 217, 0.9)70%,rgba(218, 217, 217, 0.9));
+    position: relative;
+}
+
+ form h1, form p {
+    font-family: 'Cantarell-Bold';
+}
+
+form p{
+    font-size: 14px;
+    color: black;
+}
+
+form h1{
+    font-size: 30px;
+    color: black;
+    
+}
+
+form input {
+    width: 420px;
+    height: 36px;
+    border-radius: 38px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+form textarea{
+    width:420px ;
+    height:150px ;
+    border-radius:38px ;
+    padding:20px 0 0 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+form button{
+    width:154px ;
+    height:44px ;
+    border-radius:38px ;
+}
+
+form button:hover{
+   background-color: #021740;
+}
+
+.modal {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.content {
+    position: absolute;
+    background: white;
+    height: 400px;
+    width: 800px;
+    border-radius: 38px;
+    padding: 1em 2em;
+    padding-top: 200px;
+    
+}
+
+.modal:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.close-box {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.modal h1, .modal p {
+    font-family: 'Cantarell-Bold';
+    font-size: xx-large;
+}
+
+
+/*css layout du footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.out{
+    flex: 1;
+}
+
+.exterieur{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+ .ft1 {
+    font-size: 14px;
+}
+
+footer h2{
+    font-size: 20px;
+}
+
+.out1{
+    margin: 80px;
+}
+
+img[alt="footer1"]{
+    height: 290px;
+    margin-left: 200px;
+
+}
+img[alt="footer2"]{
+   position: relative;
+   bottom: 170px;
+   left: 250px;
+
+}  
+
+.out a:nth-of-type(1){
+    text-decoration: none;
+}
+
+.out a:nth-of-type(1):hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.out a:nth-of-type(2){
+    text-decoration: none;
+}
+
+.out a:nth-of-type(2):hover{
+    text-decoration: underline;
+    color: white;
+}
+
+

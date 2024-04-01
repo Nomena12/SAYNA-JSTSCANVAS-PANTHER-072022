@@ -52,17 +52,18 @@ p{
 
 
 body{
-    background-image: url(ASSETS/Illustrations\ +\ Logo/All\ \pages/arrière_plan.png);
+    background-image: url(Illustration\ +\ Logo/arrière_plan.png);
     color: white;
 }
 
 footer{
-    background-image: url(ASSETS/Illustrations\ +\ Logo/All\ \pages/back_footer.png);
+    background-image: url(Illustration\ +\ Logo/back_footer.png);
 }
 
 .formulaire{
-    background-image: url(ASSETS/Illustrations\ +\ Logo/Accueil/Pantherhome7.png);
+    background-image: url(Illustration\ +\ Logo/1_Landing_page/Pantherhome4.png);
 }
+
 
 
 

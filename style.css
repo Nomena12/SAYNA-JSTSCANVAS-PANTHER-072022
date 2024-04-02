@@ -209,7 +209,7 @@ header {
     
    background-color: #021740;
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
     margin-bottom: 150px;
     height: 250px;
     margin-left: 50px;
@@ -233,14 +233,32 @@ img[alt="Pantherhome4"]{
 .card {
     
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 10px;
     height: 250px;
+    position: relative;
     
 }
 
 .ptr3 {
     height: 250px;
+}
+
+.news{
+    display: none;
+}
+
+button[type="button"]{
+    position: absolute;
+    border-radius: 30px;
+    height:40px ;
+    width: 40px;
+    background-color: #021740;
+    color: white;
+    font-size: x-large;
+    top: 100px;
+    left: 160px;
+
 }
 
 /*css du section et de l'aside*/

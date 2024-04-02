@@ -37,13 +37,13 @@ h2{
 
 q {
     font-family: 'WakandaForever';
-    font-size: xx-large;
+    font-size: x-large;
     word-spacing: 8px;
 }
 
-h3{
+ h3{
     font-family: 'BEYNO'; 
-}
+} 
 
 p{
     font-family: 'Cantarell-Bold';
@@ -90,11 +90,12 @@ footer{
 
 
 .e-in3{
+    
 
     background-image: url(Illustration\ +\ Logo/3_Page_Enigme/Pantherenigme2.png);
     background-repeat: no-repeat;
-    background-size: cover;
-   height:350px ;
+    background-size:cover;
+   height:550px ;
    width:600px ;
    margin-top: 150px;
    position: relative;
@@ -104,8 +105,8 @@ footer{
     
    position: absolute;
    width: 400px;
-   top:120px ;
-   left:100px ;
+   top:180px ;
+   left:160px ;
 }
 
 
@@ -132,24 +133,39 @@ q{
 }
 
 .e-in7{
-    background-image: url(ASSETS/Illustrations\ +\ Logo/Enigme/Pantherenigme2.png);
+    
+    background-image: url(Illustration\ +\ Logo/3_Page_Enigme/Pantherenigme2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height:350px ;
+    height:550px ;
    width:600px ;
-   margin-top: 150px;
+   margin-top: 50px;
    position: relative;
 }
 
 .e-in6{
-    
     height: 100px;
     width: 440px; 
     position: absolute;
-    top:120px ;
+    top:220px ;
     left: 100px;
     text-align: center;
 }
+
+.e-in6I{
+    display: none;
+}
+
+.e-in6II{
+    display: none;
+}
+
+.e-in8I{
+    display: none;
+} 
+.e-in8II{
+    display: none;
+} 
 
 .e-in8+p{
     font-size: 14px;

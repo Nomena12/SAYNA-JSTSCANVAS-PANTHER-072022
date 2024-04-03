@@ -520,11 +520,11 @@ form button:hover{
     
 }
 
-.modal:target{
+/*.modal:target{
     visibility: visible;
     opacity: 1;
 }
-
+*/
 .close-box {
     position: absolute;
     top: 8px;

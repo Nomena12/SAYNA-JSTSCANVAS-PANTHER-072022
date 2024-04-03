@@ -110,9 +110,11 @@ img[alt="Pantherwakanda1"]{
     gap: 50px;
     position: absolute;
     top: 0px;
+    left: 60px;
 }
 
 .w-out1{
+    border: 2px solid white;
     position: relative;
     height: 1500px;
 }
@@ -252,5 +254,33 @@ nav a:focus {
 
 img[class="logo"]:hover  {
     filter: opacity(0.4) drop-shadow(0 0 0 #3D2DA6);
+}
+
+/*trait violet */
+.test1{
+    position: absolute ;
+    border: 3px solid #9E91B7;
+    border-top:none ;
+    border-bottom: none;
+    height:250px ;
+    width:27px;
+    top: 0;
+    left: 30px;
+}
+.test2{
+    position: absolute;
+    border: 3px solid #9E91B7;
+    border-top:none ;
+    border-bottom: none;
+    border-right: none;
+    height:100px ;
+    width:40px;
+    top:250px ;
+    left: 30px;
+    background: url(Illustration\ +\ Logo/icon_facebook.png) no-repeat top right,
+    url(Illustration\ +\ Logo/icon_instagram.png) no-repeat  right 25px,
+    url(Illustration\ +\ Logo/icon_twitter.png) no-repeat right 50px,
+    url(Illustration\ +\ Logo/icon_tiktok.png) no-repeat right 75px ;
+      
 }
 

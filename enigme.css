@@ -187,7 +187,7 @@ q{
     margin-left: 80px;
 }
 
-.e-in9 input{
+.e-in9 input[type="text"]{
   
         width: 420px;
         height: 36px;
@@ -202,14 +202,14 @@ q{
         margin-bottom: 0px;
     }
     
-.e-in9 button{
+.e-in9 input[type="submit"]{
     width:154px ;
         height:44px ;
         border-radius:38px ;
         margin-left: 150px;
 }
 
-.e-in9 button:hover{
+.e-in9 input[type="submit"]:hover{
     background-color: #F2CEF2;
 }
 
@@ -327,5 +327,33 @@ nav a:focus {
 
 img[class="logo"]:hover  {
     filter: opacity(0.4) drop-shadow(0 0 0 #3D2DA6);
+}
+
+/*trait violet */
+.test1{
+    position: absolute ;
+    border: 3px solid #9E91B7;
+    border-top:none ;
+    border-bottom: none;
+    height:250px ;
+    width:27px;
+    top: 0;
+    left: 30px;
+}
+.test2{
+    position: absolute;
+    border: 3px solid #9E91B7;
+    border-top:none ;
+    border-bottom: none;
+    border-right: none;
+    height:100px ;
+    width:40px;
+    top:250px ;
+    left: 30px;
+    background: url(Illustration\ +\ Logo/icon_facebook.png) no-repeat top right,
+    url(Illustration\ +\ Logo/icon_instagram.png) no-repeat  right 25px,
+    url(Illustration\ +\ Logo/icon_twitter.png) no-repeat right 50px,
+    url(Illustration\ +\ Logo/icon_tiktok.png) no-repeat right 75px ;
+      
 }
 

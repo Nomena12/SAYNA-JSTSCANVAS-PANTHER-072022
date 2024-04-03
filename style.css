@@ -20,6 +20,28 @@
     src: url(Police/WakandaForever-Regular.ttf);
 }
 
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px) scale(0.1);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+      /*  transform: translateX(-1000px) scale(0.1); */
+    }
+    100% {
+        opacity: 1;
+     /*   transform: translateX(0) scale(1); */
+    }
+}
+
 h1,h2,h3{
     color: #9E91B7;
 }
@@ -63,6 +85,9 @@ footer{
 .formulaire{
     background-image: url(Illustration\ +\ Logo/1_Landing_page/Pantherhome4.png);
 }
+/*java */
+
+
 
 
 
@@ -70,7 +95,7 @@ footer{
 /*css du barre de nav*/
 
 nav ul {
-   
+   animation: fadeInRight 1500ms ease-in-out;
     margin-right: 50px;
     width: 350px;
     display: flex;
@@ -195,10 +220,10 @@ header {
     width:40px;
     top:250px ;
     left: 30px;
-    background: url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_facebook.png) no-repeat top right,
-    url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_instagram.png) no-repeat  right 25px,
-    url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_twitter.png) no-repeat right 50px,
-    url(ASSETS/Illustrations\ +\ Logo/All\ \pages/icon_tiktok.png) no-repeat right 75px ;
+    background: url(Illustration\ +\ Logo/icon_facebook.png) no-repeat top right,
+    url(Illustration\ +\ Logo/icon_instagram.png) no-repeat  right 25px,
+    url(Illustration\ +\ Logo/icon_twitter.png) no-repeat right 50px,
+    url(Illustration\ +\ Logo/icon_tiktok.png) no-repeat right 75px ;
       
 }
 

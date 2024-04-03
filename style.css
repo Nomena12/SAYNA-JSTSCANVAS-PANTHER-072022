@@ -87,6 +87,11 @@ footer{
 }
 /*java */
 
+#hidden-content {
+    display: none; /* Contenu initialement caché */
+    margin-top: 1000px; /* Distance de défilement avant d'afficher le contenu */
+  }
+
 
 
 
@@ -163,6 +168,7 @@ img[alt="Pantherhome1"]{
 .in1 {
     flex: 1 ;
     margin-left: 100px;
+   
 }
 
 .bp1{

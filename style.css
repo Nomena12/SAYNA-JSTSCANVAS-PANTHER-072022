@@ -87,10 +87,24 @@ footer{
 }
 /*java */
 
-#hidden-content {
-    display: none; /* Contenu initialement caché */
-    margin-top: 1000px; /* Distance de défilement avant d'afficher le contenu */
+/* Set initial styling for the element */
+.my-element, .my {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
+  
+  /* Add a class to the element to trigger the animation */
+  .my-element.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .my.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
 
 
 
@@ -100,7 +114,7 @@ footer{
 /*css du barre de nav*/
 
 nav ul {
-   animation: fadeInRight 1500ms ease-in-out;
+ /*  animation: fadeInRight 1500ms ease-in-out; */
     margin-right: 50px;
     width: 350px;
     display: flex;

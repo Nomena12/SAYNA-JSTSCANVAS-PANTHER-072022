@@ -12,6 +12,22 @@ voirPlink.setAttribute("href","#prince");
 });
 
 
+
+
+
+window.addEventListener('scroll', (e)=>{
+    const barre = document.querySelector(".test3 ");
+   
+
+   barre.style.position = "sticky";
+   barre.style.top = 0 + "px";
+  // barre.style.left = 0 ;
+   
+
+});
+
+
+
 // Get the element to animate
 const element = document.querySelector('.my-element');
 const element1 = document.querySelector('.my');

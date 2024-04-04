@@ -114,7 +114,6 @@ img[alt="Pantherwakanda1"]{
 }
 
 .w-out1{
-    border: 2px solid white;
     position: relative;
     height: 1500px;
 }
@@ -283,4 +282,65 @@ img[class="logo"]:hover  {
     url(Illustration\ +\ Logo/icon_tiktok.png) no-repeat right 75px ;
       
 }
+
+.test3{
+    margin-top: -50px;
+    margin-left: -30px;
+}
+
+/* Set initial styling for the element */
+.my-element, .my, .my1, .my2, .my3, .my4, .my5,.my6, .my7, .my8 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  /* Add a class to the element to trigger the animation */
+  .my-element.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .my.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .my1.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .my2.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .my3.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .my4.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .my5.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .my6.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .my7.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .my8.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
 

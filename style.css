@@ -295,13 +295,14 @@ header {
 /*css des cartes de heros */
 
 .out2 {
-    
+    border: 2px solid white;
    background-color: #021740;
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     margin-bottom: 150px;
     height: 250px;
     margin-left: 50px;
+    position: relative;
 }
 
 img[alt="Pantherhome2"]{
@@ -345,10 +346,37 @@ button[type="button"]{
     background-color: #021740;
     color: white;
     font-size: x-large;
-    top: 100px;
-    left: 160px;
+    top: 140px;
+    left: 800px;
 
 }
+
+button[type="button"]:hover{
+    transform: scale(1.5);
+}
+/*test slide */
+/* Définition de l'élément contenant les diapositives */
+.carousel-inner {
+    display: flex;
+    /* Affiche les éléments en ligne */
+    overflow: hidden;
+    /* Cache les éléments qui dépassent */
+    height: 100vh;
+    /* Hauteur égale à 100% de la hauteur de la vue */
+    flex-wrap: nowrap;
+    /* Empêche les éléments de se placer sur plusieurs lignes */
+}
+/* Définition des diapositives */
+.card {
+    
+    /* Largeur de chaque diapositive est de 100% */
+    
+    /* Hauteur de chaque diapositive est de 100% */
+    transition: .5s ease-in-out;
+    /* Ajout d'une animation douce pour la transition entre les diapositives */
+}
+/* Définition de l'affichage de l'image de chaque diapositive */
+
 
 /*css du section et de l'aside*/
 

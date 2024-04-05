@@ -105,5 +105,49 @@ observer.observe(element9);
 
 
 
+function previous (){
+  const widthSlider = document.querySelector(".slider_content_item").offsetWidth;
+  document.querySelector(".slider_content").scrollLeft -= widthSlider;
+}
+
+
+
+function next (){
+  const widthSlider = document.querySelector(".slider_content_item").offsetWidth;
+  
+
+  const sliderContent = document.querySelector(".slider_content");
+  console.log(sliderContent.scrollLeft);
+
+  sliderContent.scrollLeft += widthSlider;
+  const scrollLeft = sliderContent.scrollLeft;
+  const itemSlider = sliderContent.querySelectorAll(".slider_content_item");
+  
+
+  if( scrollLeft === widthSlider * (itemSlider.length -1)){
+    sliderContent.scrollLeft = 0;
+
+  }
+}
+
+const btnNext = document.getElementById('#next');
+
+btnNext.addEventListener("mouseover"
+,()=>{
+  const body = document.querySelector("body");
+  body.style.backgroundImage = "";
+});
+
+function zoom(){
+const imgs = document.querySelector(`img[alt="sary1"]`);
+
+imgs.style.transform = "scale(120%)";
+};
+
+function dezoom(){
+  const imgs = document.querySelector(`img[alt="sary1"]`);
+  
+  imgs.style.transform = "";
+  };
 
 

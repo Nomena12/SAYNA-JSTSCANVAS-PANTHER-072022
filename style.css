@@ -330,6 +330,32 @@ img[alt="Pantherhome4"]{
     
 }
 
+.slider{
+    height: 300px;
+    width: 600px;
+}
+
+.slider_nav{
+    position: absolute;
+}
+
+.slider_content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.slider_content_item{
+    height: 100%;
+    min-width: 100%;
+}
+
+.slider_content_item img{
+    height: 100%;
+    width: 100%;
+}
+
 .ptr3 {
     height: 250px;
 }
@@ -354,28 +380,6 @@ button[type="button"]{
 button[type="button"]:hover{
     transform: scale(1.5);
 }
-/*test slide */
-/* Définition de l'élément contenant les diapositives */
-.carousel-inner {
-    display: flex;
-    /* Affiche les éléments en ligne */
-    overflow: hidden;
-    /* Cache les éléments qui dépassent */
-    height: 100vh;
-    /* Hauteur égale à 100% de la hauteur de la vue */
-    flex-wrap: nowrap;
-    /* Empêche les éléments de se placer sur plusieurs lignes */
-}
-/* Définition des diapositives */
-.card {
-    
-    /* Largeur de chaque diapositive est de 100% */
-    
-    /* Hauteur de chaque diapositive est de 100% */
-    transition: .5s ease-in-out;
-    /* Ajout d'une animation douce pour la transition entre les diapositives */
-}
-/* Définition de l'affichage de l'image de chaque diapositive */
 
 
 /*css du section et de l'aside*/

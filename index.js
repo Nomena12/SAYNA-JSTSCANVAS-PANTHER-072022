@@ -11,6 +11,33 @@ voirPlink.addEventListener("click",()=>{
 voirPlink.setAttribute("href","#prince");
 });
 
+const btnNext = document.querySelector(`button[id="next"]`);
+console.log(btnNext);
+
+let i = 1
+
+function manampy (){
+  i++;
+  if(i > 10){i = 1};
+}
+btnNext.addEventListener("click" , ()=>{
+  manampy();
+ 
+});
+
+function zoom(){
+  
+const imgs = document.querySelector(`img[alt="sary${i}"]`);
+console.log(imgs);
+
+imgs.style.transform = "scale(120%)";
+};
+
+function dezoom(){
+  const imgs = document.querySelector(`img[alt="sary${i}"]`);
+  
+  imgs.style.transform = "";
+  };
 
 
 
@@ -117,7 +144,7 @@ function next (){
   
 
   const sliderContent = document.querySelector(".slider_content");
-  console.log(sliderContent.scrollLeft);
+  
 
   sliderContent.scrollLeft += widthSlider;
   const scrollLeft = sliderContent.scrollLeft;
@@ -128,26 +155,7 @@ function next (){
     sliderContent.scrollLeft = 0;
 
   }
-}
-
-const btnNext = document.getElementById('#next');
-
-btnNext.addEventListener("mouseover"
-,()=>{
-  const body = document.querySelector("body");
-  body.style.backgroundImage = "";
-});
-
-function zoom(){
-const imgs = document.querySelector(`img[alt="sary1"]`);
-
-imgs.style.transform = "scale(120%)";
 };
 
-function dezoom(){
-  const imgs = document.querySelector(`img[alt="sary1"]`);
-  
-  imgs.style.transform = "";
-  };
 
 

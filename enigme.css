@@ -150,9 +150,16 @@ q{
     top:220px ;
     left: 100px;
     text-align: center;
+    display: block;
 }
 
 .e-in6I{
+    height: 100px;
+    width: 440px; 
+    position: absolute;
+    top:220px ;
+    left: 100px;
+    text-align: center;
     display: none;
 }
 
@@ -161,6 +168,8 @@ q{
 }
 
 .e-in8I{
+    margin-top: 150px;
+    margin-left: 80px;
     display: none;
 } 
 .e-in8II{
@@ -177,7 +186,7 @@ q{
 
 
 .e-in8{
-    
+    display: block;
     margin-top: 150px;
     margin-left: 80px;
 }

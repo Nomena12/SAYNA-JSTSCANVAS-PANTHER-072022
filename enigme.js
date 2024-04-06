@@ -38,6 +38,7 @@ titreH3I.style.textDecoration = "underline";
 const textQI = document.createElement("p");
 divIn8I.appendChild(textQI);
 textQI.innerHTML = "Tm nqtu lmjcbm i Wikstivl mv Kitqnwzvqm. Qt a'ioqb lm ti dqttm lwvb mab <br> wzqoqviqzm Zgiv Kwwotmz mb moitmumvb ti dqttm ycq i dc viqbzm tm <br>uwcdmumvb xwtqbqycm lma jtiks xivbpmza";
+// const textQReponse = "Le film debute a Oackland en Californie. Il s'agit de la ville dont est originaire Ryan Coogler et egalement la ville qui a vu naitre le mouvement politique des black panthers";
 
 
 
@@ -63,6 +64,9 @@ const textSaisie = textArea.value;
 const formulaire = document.querySelector('form');
 const sansEsp = textQ.innerText.trim();
 const sansEsp1 = sansEsp.replace(/\s/g, '');
+//const sansEsp2 = textQReponse.innerText.trim();
+//const sansEsp3 = sansEsp.replace(/\s/g, '');
+
 
 
 
@@ -88,6 +92,21 @@ if(textUpper === sansEsp1){
 
     const enigmNext = document.querySelector('button[class="validation"]');
     console.log(enigmNext);
+    enigmNext.addEventListener("click", ()=>{
+      const divIn6 = document.querySelector('.e-in6');
+      const divIn6I = document.querySelector('.e-in6I');
+      const divIn6II = document.querySelector('.e-in6II');
+     
+divIn8.style.display = "none";
+divIn8I.style.display = "block";
+divIn6.style.display = "none";
+divIn6I.style.display = "block";
+popUp.style.visibility = "hidden";
+    popUp.style.opacity = "0";
+    const textArea = document.querySelector('input[type="text"]');
+    textArea.value = " ";
+
+    });
 }
 else
 {
@@ -97,8 +116,51 @@ else
 
 });
 
+/*
+
+formulaire.addEventListener('submit',(e)=>{
+  
+  e.preventDefault();
+  const textSaisie = textArea.value;
+  const textSans = textSaisie.trim();
+  const textSans1 = textSans.replace(/\s/g, '');
+  const textUpper = textSans1.toUpperCase();
+  
+  console.log(textUpper);
+  console.log(sansEsp3);
+  
+  if(textUpper === sansEsp3){
+      popUp.style.visibility = "visible";
+      popUp.style.opacity = "1";
+  
+      const enigmNext = document.querySelector('button[class="validation"]');
+      console.log(enigmNext);
+      enigmNext.addEventListener("click", ()=>{
+        const divIn6 = document.querySelector('.e-in6');
+        const divIn6I = document.querySelector('.e-in6I');
+        const divIn6II = document.querySelector('.e-in6II');
+       
+  divIn8.style.display = "none";
+  divIn8I.style.display = "block";
+  divIn6.style.display = "none";
+  divIn6I.style.display = "block";
+  popUp.style.visibility = "hidden";
+      popUp.style.opacity = "0";
+      const textArea = document.querySelector('input[type="text"]');
+      textArea.value = " ";
+  
+      });
+  }
+  else
+  {
+    popUpWrong.style.visibility = "visible";
+    popUpWrong.style.opacity = "1"
+  }
+  
+  });
 
 
+*/
 
 
 

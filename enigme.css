@@ -213,6 +213,77 @@ q{
     background-color: #F2CEF2;
 }
 
+/*pop-up box */
+.modal, .modal1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.content, .content1 {
+    position: absolute;
+    background: white;
+    height: 400px;
+    width: 800px;
+    border-radius: 38px;
+    padding: 1em 2em;
+    padding-top: 200px;
+    
+}
+
+
+.close-box {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.validation{
+    position: absolute;
+    top: 80%;
+    right: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#popup-box1{
+    p{
+        font-family: 'Cantarell-Bold';
+        color: black;
+        font-size: 40px;
+    }
+
+    h1{
+        text-align: center;
+    }
+}
+
+#popup-box{
+    p{
+        font-family: 'Cantarell-Bold';
+        color: black;
+        font-size: 40px;
+    }
+
+    h1{
+        text-align: center;
+    }
+}
+
+
 /*css layout du footer */
 
 footer {

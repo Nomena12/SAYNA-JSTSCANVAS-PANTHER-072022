@@ -53,6 +53,46 @@ const textQII = document.createElement("p");
 divIn8II.appendChild(textQII);
 textQII.innerHTML = "01001100 01000101 00100000 01010010 01001111 01001001 <br> 00100000 01001100 01001001 01001111 01001110 00001101 <br>00001010";
 
+
+const popUp = document.querySelector('div #popup-box1');
+const submitBtn = document.querySelector('input[type="submit"]');
+const textArea = document.querySelector('input[type="text"]');
+const textSaisie = textArea.value;
+const formulaire = document.querySelector('form');
+const sansEsp = textQ.innerText.trim();
+const sansEsp1 = sansEsp.replace(/\s/g, '');
+
+
+
+
+console.log(textQ.innerText.toLowerCase());
+console.log(textSaisie);
+console.log(formulaire);
+
+formulaire.addEventListener('submit',(e)=>{
+  
+e.preventDefault();
+const textSaisie = textArea.value;
+const textSans = textSaisie.trim();
+const textSans1 = textSans.replace(/\s/g, '');
+const textUpper = textSans1.toUpperCase();
+
+console.log(textUpper);
+console.log(sansEsp1);
+
+if(textUpper === sansEsp1){
+    popUp.style.visibility = "visible";
+    popUp.style.opacity = "1";
+}
+
+});
+
+
+
+
+
+
+
 window.addEventListener('scroll', (e)=>{
   const barre = document.querySelector(".test3");
  

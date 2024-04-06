@@ -55,6 +55,8 @@ textQII.innerHTML = "01001100 01000101 00100000 01010010 01001111 01001001 <br> 
 
 
 const popUp = document.querySelector('div #popup-box1');
+const popUpWrong = document.querySelector('div #popup-box');
+
 const submitBtn = document.querySelector('input[type="submit"]');
 const textArea = document.querySelector('input[type="text"]');
 const textSaisie = textArea.value;
@@ -83,6 +85,14 @@ console.log(sansEsp1);
 if(textUpper === sansEsp1){
     popUp.style.visibility = "visible";
     popUp.style.opacity = "1";
+
+    const enigmNext = document.querySelector('button[class="validation"]');
+    console.log(enigmNext);
+}
+else
+{
+  popUpWrong.style.visibility = "visible";
+  popUpWrong.style.opacity = "1"
 }
 
 });

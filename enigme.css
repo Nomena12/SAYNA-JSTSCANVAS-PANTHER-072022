@@ -259,7 +259,7 @@ q{
     text-decoration: none;
 }
 
-.validation{
+.validation, .validation1{
     position: absolute;
     top: 80%;
     right: 50%;

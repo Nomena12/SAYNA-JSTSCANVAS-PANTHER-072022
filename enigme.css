@@ -164,6 +164,12 @@ q{
 }
 
 .e-in6II{
+    height: 100px;
+    width: 440px; 
+    position: absolute;
+    top:220px ;
+    left: 100px;
+    text-align: center;
     display: none;
 }
 
@@ -173,6 +179,8 @@ q{
     display: none;
 } 
 .e-in8II{
+    margin-top: 150px;
+    margin-left: 80px;
     display: none;
 } 
 

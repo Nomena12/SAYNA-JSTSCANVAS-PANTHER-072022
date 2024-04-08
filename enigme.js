@@ -39,10 +39,11 @@ const textQI = document.createElement("p");
 divIn8I.appendChild(textQI);
 textQI.innerHTML = "Tm nqtu lmjcbm i Wikstivl mv Kitqnwzvqm. Qt a'ioqb lm ti dqttm lwvb mab <br> wzqoqviqzm Zgiv Kwwotmz mb moitmumvb ti dqttm ycq i dc viqbzm tm <br>uwcdmumvb xwtqbqycm lma jtiks xivbpmza";
  const textQReponse = "Le film debute a Oackland en Californie. Il s'agit de la ville dont est originaire Ryan Coogler et egalement la ville qui a vu naitre le mouvement politique des black panthers";
+ const TextQReponseUpper = textQReponse.toUpperCase();
  const sans = TextQReponseUpper.trim().replace(/\s/g, '')
  const textQReponse1 = "le roi lion";
- 
-
+ const textQReponse1Upper = textQReponse1.toUpperCase();
+ const sans1 = textQReponse1Upper.trim().replace(/\s/g, '');
 
 
 
@@ -61,6 +62,7 @@ textQII.innerHTML = "01001100 01000101 00100000 01010010 01001111 01001001 <br> 
 
 const popUp = document.querySelector('div #popup-box1');
 const popUpWrong = document.querySelector('div #popup-box');
+const popUpResultat = document.querySelector('div #popup-box2');
 
 const submitBtn = document.querySelector('input[type="submit"]');
 const textArea = document.querySelector('input[type="text"]');
@@ -142,6 +144,22 @@ popUp.style.visibility = "hidden";
 
   });
 }
+else if(textUpper === sans1){
+  popUpResultat.style.visibility = "visible";
+  popUpResultat.style.opacity = "1";
+
+  const enigmNext = document.querySelector('button[class="validation2"]');
+  console.log(enigmNext);
+  enigmNext.addEventListener("click", ()=>{
+
+  popUpResultat.style.visibility = "hidden";
+  popUpResultat.style.opacity = "0";
+  const textArea = document.querySelector('input[type="text"]');
+  textArea.value = " ";
+  window.location.href = "index.html";
+  });
+
+}
 else
 {
   popUpWrong.style.visibility = "visible";
@@ -156,6 +174,12 @@ else
       const textArea = document.querySelector('input[type="text"]');
       textArea.value = " ";
       textArea.focus();
+
+      
+        
+      
+
+      
 
 
     });

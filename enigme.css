@@ -231,7 +231,7 @@ q{
 }
 
 /*pop-up box */
-.modal, .modal1 {
+.modal, .modal1, .modal2 {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -246,7 +246,7 @@ q{
     opacity: 0;
 }
 
-.content, .content1 {
+.content, .content1, .content2 {
     position: absolute;
     background: white;
     height: 400px;
@@ -276,6 +276,15 @@ q{
     text-decoration: none;
 }
 
+.validation2{
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-decoration: none;
+}
+
 #popup-box1{
     p{
         font-family: 'Cantarell-Bold';
@@ -289,6 +298,18 @@ q{
 }
 
 #popup-box{
+    p{
+        font-family: 'Cantarell-Bold';
+        color: black;
+        font-size: 40px;
+    }
+
+    h1{
+        text-align: center;
+    }
+}
+
+#popup-box2{
     p{
         font-family: 'Cantarell-Bold';
         color: black;

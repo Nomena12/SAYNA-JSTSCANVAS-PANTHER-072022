@@ -249,7 +249,7 @@ q{
 .content, .content1, .content2 {
     position: absolute;
     background: white;
-    height: 400px;
+    height: 500px;
     width: 800px;
     border-radius: 38px;
     padding: 1em 2em;
@@ -290,10 +290,13 @@ q{
         font-family: 'Cantarell-Bold';
         color: black;
         font-size: 40px;
+        margin-bottom: 300px;
+
     }
 
     h1{
         text-align: center;
+        margin-top: 0px;
     }
 }
 
@@ -302,10 +305,13 @@ q{
         font-family: 'Cantarell-Bold';
         color: black;
         font-size: 40px;
+        margin-bottom: 300px;
+
     }
 
     h1{
         text-align: center;
+        margin-top: 0px;
     }
 }
 
@@ -314,10 +320,13 @@ q{
         font-family: 'Cantarell-Bold';
         color: black;
         font-size: 40px;
+        margin-bottom: 300px;
+
     }
 
     h1{
         text-align: center;
+        margin-top: 0px;
     }
 }
 

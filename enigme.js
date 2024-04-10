@@ -1,3 +1,23 @@
+
+// Sélection de l'élément du curseur personnalisé
+const customCursor = document.getElementById('custom-cursor');
+
+// Écouteur d'événement pour le mouvement de la souris sur le document entier
+document.addEventListener('mousemove', function(event) {
+  // Mise à jour de la position du curseur personnalisé en fonction des coordonnées de la souris
+  customCursor.style.left = event.clientX + 'px';
+  customCursor.style.top = event.clientY + 'px';
+});
+
+
+
+
+
+
+
+
+
+
 const divIn3 = document.querySelector('.e-in3');
 const divInX = document.createElement("div");
 divInX.setAttribute('class','divInX');

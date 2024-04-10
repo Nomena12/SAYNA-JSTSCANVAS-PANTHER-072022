@@ -353,21 +353,18 @@ svg{
     
 }
 
-/*
-.box-rebours{ 
-    height: 100vh; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
-}
- 
- #heure, #minute, #seconde { 
-    background:rgb(170, 8, 211); 
-    
-    color: white; 
-    font-size: 3rem; 
-    font-weight: bold; }
+body {
+    cursor: none; /* Masquer le curseur par défaut */
+  }
+  #custom-cursor {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-image: url('Illustration\ +\ Logo/logo_souris_BP1_blanc.png'); /* URL de l'image à utiliser */
+    background-size: cover;
+    pointer-events: none; /* Permettre aux événements de la souris de passer à travers l'élément */
+    z-index: 9999; /* Assurer que le curseur personnalisé est au-dessus de tout le reste */
+  }
 
 
 /*css layout du footer */

@@ -148,6 +148,38 @@ else if(textUpper === sans1){
   popUpResultat.style.visibility = "visible";
   popUpResultat.style.opacity = "1";
 
+
+ // Date de fin du compte à rebours (modifier selon vos besoins)
+const dateFin = new Date("2024-12-31T23:59:59").getTime();
+
+// Fonction pour mettre à jour le compte à rebours
+function mettreAJourCompteARebours() {
+    // Date actuelle
+    const dateActuelle = new Date().getTime();
+    
+    // Calcul du temps restant
+    const tempsRestant = dateFin - dateActuelle;
+
+    if(tempsRestant > 0){
+    // Calcul des jours, heures, minutes et secondes restantes
+    //const jours = Math.floor(tempsRestant / (1000 * 60 * 60 * 24));
+    const heures = Math.floor((tempsRestant % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((tempsRestant % (1000 * 60 * 60)) / (1000 * 60));
+    const secondes = Math.floor((tempsRestant % (1000 * 60)) / 1000);
+    
+    // Affichage du compte à rebours
+    document.getElementById("compte_a_rebours").innerHTML =  heures + "h "
+    + minutes + "m " + secondes + "s ";
+    
+    // Actualisation du compte à rebours toutes les secondes
+    setTimeout(mettreAJourCompteARebours, 1000);
+    }
+}
+
+// Appel de la fonction pour démarrer le compte à rebours
+mettreAJourCompteARebours();
+  
+
   const enigmNext = document.querySelector('button[class="validation2"]');
   console.log(enigmNext);
   enigmNext.addEventListener("click", ()=>{

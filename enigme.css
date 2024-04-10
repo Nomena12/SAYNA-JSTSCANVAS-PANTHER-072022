@@ -278,7 +278,7 @@ q{
 
 .validation2{
     position: absolute;
-    top: 80%;
+    top: 50%;
     right: 30%;
     color: rgb(0, 0, 0);
     font-size: 30px;
@@ -305,7 +305,7 @@ q{
         font-family: 'Cantarell-Bold';
         color: black;
         font-size: 40px;
-        margin-bottom: 300px;
+        margin-bottom: 200px;
 
     }
 
@@ -319,16 +319,55 @@ q{
     p{
         font-family: 'Cantarell-Bold';
         color: black;
-        font-size: 40px;
-        margin-bottom: 300px;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 10px;
 
     }
 
     h1{
         text-align: center;
         margin-top: 0px;
+        margin-bottom: 200px;
     }
 }
+
+#compte_a_rebours{
+    position: relative;
+    background: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+    font-size: xx-large;
+    left: 290px;
+    
+     
+
+}
+
+svg{
+    
+    position: relative;
+    margin-left: 200px;
+    bottom: 65px;
+    
+}
+
+/*
+.box-rebours{ 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+ 
+ #heure, #minute, #seconde { 
+    background:rgb(170, 8, 211); 
+    
+    color: white; 
+    font-size: 3rem; 
+    font-weight: bold; }
 
 
 /*css layout du footer */

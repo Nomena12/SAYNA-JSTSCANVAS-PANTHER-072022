@@ -10,6 +10,32 @@ document.addEventListener('mousemove', function(event) {
 });
 
 
+const panth5 = document.querySelector('img[alt="Pantherhome5"]');
+
+
+panth5.addEventListener('mouseover' , ()=>{
+  panth5.style.transform = "scale(1.2)";
+});
+
+panth5.addEventListener('mouseout' , ()=>{
+  panth5.style.transform = "";
+});
+
+const panth6 = document.querySelector('img[alt="Pantherhome6"]');
+console.log(panth6);
+
+panth6.addEventListener('mouseover' , ()=>{
+  panth6.style.transform = "scale(1.2)";
+});
+
+panth6.addEventListener('mouseout' , ()=>{
+  panth6.style.transform = "";
+});
+
+
+
+
+
 
 
 
